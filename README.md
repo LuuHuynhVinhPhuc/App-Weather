@@ -1,6 +1,30 @@
 # WeatherAppAngular
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.11.
+# 🌤️ Angular Weather Forecast App
+
+A simple and responsive weather forecast web application built with **Angular 19** and **Bootstrap 5**. It allows users to search for current weather conditions by city and view detailed weather data.
+
+## 🚀 Features
+
+- 🔍 **Search by City**: Enter any city name to get real-time weather data.
+- 📍 **Default Location**: Automatically displays weather for "Ho Chi Minh City, VN" on first load.
+- 📅 **Today's Weather**: Clear and concise display of current weather data.
+- 🌐 **OpenWeather API Integration**: Fetches data from [OpenWeatherMap](https://openweathermap.org/api).
+
+## 🧱 Tech Stack
+
+- **Frontend**: Angular 19
+- **Styling**: Bootstrap 5, SCSS
+- **API**: OpenWeatherMap API
+- **Language**: TypeScript, HTML, SCSS
+
+## 🛠️ Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/your-username/angular-weather-app.git
+   cd angular-weather-app
+
 
 ## Development server
 
