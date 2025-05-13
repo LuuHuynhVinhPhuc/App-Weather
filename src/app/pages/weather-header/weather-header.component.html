@@ -1,0 +1,28 @@
+<header class="header">
+  <div class="header-container">
+    <div class="logo-section">
+      <i class="fas fa-cloud-sun logo-icon"></i>
+      <h1 class="logo-text">Weather<span>App</span></h1>
+    </div>
+
+    <nav class="nav-section">
+      <ul class="nav-links">
+        <li><a href="#" routerLink="/" routerLinkActive="active">Home</a></li>
+        <li>
+          <a href="#" routerLink="/forecast" routerLinkActive="active"
+            >Forecast</a
+          >
+        </li>
+        <li>
+          <a href="#" routerLink="/maps" routerLinkActive="active"
+            >Weather Maps</a
+          >
+        </li>
+      </ul>
+
+      <button class="theme-toggle" (click)="toggleTheme()">
+        <i class="fas fa-moon"></i>
+      </button>
+    </nav>
+  </div>
+</header>

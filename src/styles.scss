@@ -1,0 +1,41 @@
+/* styles.scss */
+
+// 1. Bootstrap import
+@import "bootstrap/scss/bootstrap";
+
+// 2. SCSS variables
+$primary-color: #4c9aff;
+$dark-blue: #1e2a3a;
+$light-bg: #f8f9fa;
+$text-gray: #6c757d;
+$card-radius: 12px;
+$shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+$font-family: "Segoe UI", Roboto, sans-serif;
+
+// 3. Base styles
+body {
+  font-family: $font-family;
+  background-color: $light-bg;
+  margin: 0;
+  color: #212529;
+}
+
+.text-primary {
+  color: $primary-color !important;
+}
+
+.btn-primary {
+  background-color: $primary-color;
+  border-color: $primary-color;
+
+  &:hover {
+    background-color: darken($primary-color, 10%);
+    border-color: darken($primary-color, 10%);
+  }
+}
+
+// 5. Inputs
+input.form-control {
+  border-radius: 8px;
+  padding: 0.75rem 1rem;
+}
