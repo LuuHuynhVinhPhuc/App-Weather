@@ -7,7 +7,7 @@ import { WeatherData } from '../pages/weather-today/weather.model';
   providedIn: 'root',
 })
 export class WeatherService {
-  private apiKey = '8876dc9bcd87295b38fa67467b1d3079'; // 👈 Thay bằng API key thật
+  private apiKey = ''; // 👈 Your API Token
   private apiUrl = 'https://api.openweathermap.org/data/2.5/weather';
 
   constructor(private http: HttpClient) {}
