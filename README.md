@@ -18,6 +18,9 @@ A simple and responsive weather forecast web application built with **Angular 19
 - **API**: OpenWeatherMap API
 - **Language**: TypeScript, HTML, SCSS
 
+![image](https://github.com/user-attachments/assets/63799816-4d1a-457b-99cf-53e0f6e77347)
+
+
 ## 🛠️ Installation
 
 1. **Clone the repository**
